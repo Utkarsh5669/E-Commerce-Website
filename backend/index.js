@@ -11,7 +11,7 @@ app.use(express.json()); //With the help of this express.json whatever  request 
 app.use(cors()); //using this our react js app contect from our express port 4000
 
 // Database Connection With MongoDB
-mongoose.connect("mongodb+srv://Utk_Ecommerce:12345@cluster0.cahxi.mongodb.net/")
+mongoose.connect("Enter your URL")
 
 
 // API Creation
